@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sanjay Kumar | DevOps Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container nav">
+      <div id="nav-name"></div>
+      <nav class="nav-links">
+        <span data-target="home">Home</span>
+        <span data-target="skills">Skills</span>
+        <span data-target="projects">Projects</span>
+        <span data-target="contact">Contact</span>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home">
+      <div class="container hero">
+        <h1 id="hero-title"></h1>
+        <div id="hero-subtitle" class="subtitle"></div>
+        <p id="hero-text"></p>
+
+        <div class="btn-row">
+          <button class="btn-primary" data-target="projects">View Projects</button>
+          <a id="resume-btn" class="btn-outline" download>Download Resume</a>
+        </div>
+
+        <div id="hero-tags" class="pill-row"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div id="skills-grid" class="grid-3"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div id="projects-grid" class="grid-3"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div id="contact-box"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> <span id="footer-name"></span>. All rights reserved.
+  </footer>
+
+  <!-- JS -->
+  <script src="js/config.js"></script> <!-- your editable content -->
+  <script src="js/app.js"></script>    <!-- rendering logic -->
+</body>
+</html>
